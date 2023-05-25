@@ -1,0 +1,44 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    background-image: url('../img/gray_jeans.png') ;
+}
+.main{
+    margin: 15px 25px;
+    border-top: 5px solid orangered;
+}
+header{
+background-color:white;
+height: 100px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+align-items: center;
+}
+.top_right{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.righ_header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.links a{
+padding: 12px;
+text-transform: uppercase;
+text-decoration: none;
+}
+.links a:not(icon):hover{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.form{
+    
+}

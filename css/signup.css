@@ -1,0 +1,21 @@
+
+.form{
+    background-color:orangered;
+    width: 600px;
+    height: 200px;
+    margin: 20px 35px;
+    border: 5px solid orange;
+    border-radius: 6px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+fieldset{
+    height: 180px;
+}
+
+input{
+    height: 20px;
+}

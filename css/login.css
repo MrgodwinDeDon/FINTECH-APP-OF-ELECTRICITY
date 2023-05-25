@@ -1,0 +1,28 @@
+*{
+    align-items: center;
+    justify-items: center;
+}
+.form{
+    background-color: orangered;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+    width: 600px;
+    margin: 10px auto;
+}
+button{
+    background-color: orangered;
+    color: blanchedalmond;
+    padding: 15px, 20px;
+    cursor: pointer;
+    width: 40%;
+}
+.can{
+    width: auto;
+    padding: 10px,15px;
+    background-color: orangered;
+}
+.psw{
+    float: right;
+    padding: 3px;
+    color: orangered;
+}
