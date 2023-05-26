@@ -5,14 +5,14 @@
 }
 html, body{
     height: 100vh;
-    background-image: url('../img/gray_jeans.png') ;
+    background-image: url('../img/gray_jean.png');
 }
 .main{
     margin: 15px 25px;
     border-top: 5px solid orangered;
 }
 header{
-background-color:white;
+background-color:rgb(224, 226, 223);
 height: 100px;
 display: flex;
 justify-content: space-between;
@@ -29,6 +29,10 @@ align-items: center;
     flex-direction: column;
     align-items: flex-end;
 }
+span.blue:hover{
+   background-color: blue;
+   color: black; 
+}
 .links a{
 padding: 12px;
 text-transform: uppercase;
@@ -38,7 +42,100 @@ text-decoration: none;
     background-color: orangered;
     color: white;
     font-weight: bold;
-}
-.form{
-    
-}
+    }
+    .below_header{
+        background-image:url('../img/free-nature-stock-OQfuugXSfH0-unsplash\ \(7\).jpg');
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .form_container{
+        height: 350px;
+        width: 400px;
+        background-color: white;
+        padding: 20px 30px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .form_container >p{
+        color: orangered;
+        font-weight: 400;
+    }
+    .input_row{
+        margin: 10px auto;
+    }
+    .input_row form{
+        width: 400px;
+    }
+    .input_row p > select{
+        width: 100%;
+        padding: 8px 10px;
+    }
+    .input_row >label,.form_container > span.input_row p > select{
+        color:gray;
+        font-weight: 400;
+    }
+    form button{
+        background-color: orangered;
+        color:white;
+        border:3px solid orangered;
+        border-radius:5px;
+        outline: 0;
+        font-weight: 500;
+        padding: 15px 20px;
+    }
+    form button:hover{
+        background-color: orangered;
+        cursor:pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
