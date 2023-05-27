@@ -1,11 +1,98 @@
 *{
     background-image: url("../img/gray_jean.png");
     margin: 0;
-    padding: 0;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .form{
-    background-color: orangered;
-    border: 5px solid burlywood;
-    border-radius: 5px;
-    width: 600px;
+    border:10px solid orangered;
+    border-radius: 10px;
+    width: 60%;
+    height: 5%;
+    margin: 70px 250px;
+    padding: 10px 15px;
+    display: inline-block;
+    box-sizing: border-box;
 }
+.form input{
+    padding: 5px 5px;
+    font-weight: 500;
+}
+button{
+    padding: 14px 20px;
+    margin: 10px;
+    color: orangered;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    width: 25%;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.psw{
+    float: right;
+    padding-top: 10px;
+    border-color: orangered;
+}
+.can{
+    width: auto;
+    padding: 10px 15px; 
+}
+p{
+    color:blueviolet;
+    font-weight: 400;
+    font-style: italic;
+    text-align: justify;
+    text-align: center;
+}
+label{
+    color: orangered;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
